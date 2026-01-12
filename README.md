@@ -11,9 +11,9 @@ A lightweight but robust API designed to serve as a data provider for the **Reac
 
 ## 🚀 Quick Start
 
-1. Create a virtual environment: `python -m venv venv`
-2. Activate it: `source venv/bin/activate` (or `venv\Scripts\activate` on Windows)
-3. Install dependencies: `pip install fastapi uvicorn`
+1. Create a virtual environment: `python -m venv .venv`
+2. Activate it: `source .venv/bin/activate` (or `.venv\Scripts\activate` on Windows)
+3. Install dependencies: `pip install -r requirements.txt`
 4. Run the server: `uvicorn main:app --reload`
 
 ## 📡 Key Endpoints
